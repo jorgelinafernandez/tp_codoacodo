@@ -198,14 +198,14 @@ article img, article iframe {
     width: 100%;
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
     article {
         flex: 50%;
         max-width: 50%;
     }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 800px) {
     article {
         flex: 100%;
         max-width: 100%;
