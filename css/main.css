@@ -203,12 +203,18 @@ article img, article iframe {
         flex: 50%;
         max-width: 50%;
     }
+    header a {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 800px) {
     article {
         flex: 100%;
         max-width: 100%;
+    }
+    header a {
+        font-size: 40px;
     }
 }
 .section-center {
